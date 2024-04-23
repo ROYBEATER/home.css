@@ -1,0 +1,149 @@
+body {
+    font-family: Arial,;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color:rgb(246, 224, 183);
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #555;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .img{
+    background: url("https://www.shopickr.com/wp-content/uploads/2015/07/foodpanda-300-off-450-7-8-2015.jpg");
+    background-size: cover;
+  
+    height:600px;
+    padding: 0%;
+    margin-top: 1px;}
+  .shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    flex-wrap: wrap;
+}
+.box{
+    
+    height: 300px;
+    width: 23%;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+}
+.box-img{
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 25px;
+    
+    
+}
+.box-content{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.box-content p{
+    color:black;}
+    .simg{
+      background-image: url();
+    }
+    .round{
+      border-radius: 50%;
+      background-size: cover;
+      width: 120px;
+      height: 128px;
+      margin-left: 10px;
+    }
+    .scroller-container {
+      width: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    
+    .image-scroller {
+      display: inline-flex;
+    }
+    
+    .image {
+      width: 300px; 
+      height: 600px; 
+      margin-right: 10px; 
+      background-size: cover;
+      background-position: center;
+    }
+    a{
+      text-decoration: none;
+    color: #fff;
+    }
+    a:hover{
+      color: aqua;
+    }
+
+    
